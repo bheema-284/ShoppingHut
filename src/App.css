@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body{
+  width: 100vw;
+  height: 100vh;
+}
+.main{
+  width: 100vw;
+  height: 100vh;
+  padding-top: .9vmax;
+  background-color: #f8f8f8;
+
+}
+.center{
+  width: 100vw;
+  height: 90vh;
+  border-top: 1px solid transparent;
+  display: flex;
+}
