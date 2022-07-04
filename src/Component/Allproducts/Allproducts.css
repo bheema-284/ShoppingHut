@@ -1,7 +1,6 @@
 .allproducts{
     width: 83vw;
-    height: 90vh;
-    /* background-color: lightgreen; */
+    height: 90vh;    
     display: flex;
     padding-top: 3vmax;
     padding-left: 3vmax;
