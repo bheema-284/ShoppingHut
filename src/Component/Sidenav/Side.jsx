@@ -4,13 +4,13 @@ import '../Sidenav/Side.css'
 function Side() {
     return (
         <div className='side'>
-            <div className='small'><h5>Men's Clothing</h5></div>
-            <div className='small'><h5>Women's Clothing</h5></div>
-            <div className='small'><h5>Kid's Clothing</h5></div>
-            <div className='small'><h5>Jewelery</h5></div>
-            <div className='small'><h5>Cosmetics</h5></div>
-            <div className='small'><h5>Bags</h5></div>
-            <div className='small'><h5>Watch</h5></div>
+            <div className='small'><h4>Men's Clothing</h4></div>
+            <div className='small'><h4>Women's Clothing</h4></div>
+            <div className='small'><h4>Kid's Clothing</h4></div>
+            <div className='small'><h4>Jewelery</h4></div>
+            <div className='small'><h4>Cosmetics</h4></div>
+            <div className='small'><h4>Bags</h4></div>
+            <div className='small'><h4>Watch</h4></div>
         
         </div>
     )
