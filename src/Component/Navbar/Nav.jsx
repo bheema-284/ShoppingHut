@@ -8,7 +8,7 @@ function Nav() {
         <h1>Shopping<span>Hut</span></h1>
       </div>
       <div className='menu'>
-        <input type="text" placeholder='Search...' />
+        <input type="text" placeholder='Search... . . .  .  .  .   .' />
         <i class="ri-search-line"></i>
         <i class="ri-menu-line"></i>
       </div>
