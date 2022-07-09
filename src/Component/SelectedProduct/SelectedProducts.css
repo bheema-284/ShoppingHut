@@ -1,7 +1,6 @@
 .container{
     width: 82vw;
-    height: 88vh;
-    /* background-color: lightgreen; */
+    height: 88vh;    
     display: flex;
     padding: 3vmax 5vmax;
     overflow: hidden;
@@ -16,8 +15,7 @@
 }
 .left{
     width: 34vw;
-    height: 75vh;
-    /* background-color: lightcoral; */
+    height: 75vh;    
     overflow: hidden;
     border: .5px solid gainsboro;
     display: flex;
