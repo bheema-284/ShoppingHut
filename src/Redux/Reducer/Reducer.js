@@ -5,10 +5,7 @@ const initialState = {
 export const ProductReducer = (state=initialState, action) => {
     switch (action.type) {
       case 'SET_PRODUCTS':
-        return {
-          ...state,
-          products: action.payload,
-        };
+        return { ...state, products: action.payload };
       default:
         return state;
     }
@@ -17,14 +14,10 @@ export const ProductReducer = (state=initialState, action) => {
 export const selectedProductReducer = (state={},action) => {
     switch (action.type) {
       case 'SELECTED_PRODUCT':
-        return {
-          ...state,
-          ...action.payload,
-        };
+       return { ...state, products: action.payload };
 
       case 'REMOVE_SELECTED_PRODUCT':
         return {};
-
       default:
         return state;
     }
