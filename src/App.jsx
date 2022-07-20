@@ -17,7 +17,6 @@ function App() {
           <Route path='/product/:id' element={<SelectedProducts />} ></Route>
         </Routes>
       </div>
-
     </div>
   )
 }
