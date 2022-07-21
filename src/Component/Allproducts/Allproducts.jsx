@@ -37,8 +37,7 @@ function Allproducts() {
             <p>{elem.rating.rate}</p>
         </div>
     </div>
-    } )
-
+    })
     return (
         <div className='allproducts'>        
             {state.length>0 ? hold: <h1 className='loading'>Loading...</h1>}        
