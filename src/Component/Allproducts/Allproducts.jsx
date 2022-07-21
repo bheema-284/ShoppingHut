@@ -20,7 +20,7 @@ function Allproducts() {
     }, [])
 
     const state= useSelector(state=>state.allproducts.products)
-    //console.log(state)
+    console.log(state)
     
     const handler = (e)=> {
         navigate(`/product/${e.target.id}`)
@@ -40,10 +40,8 @@ function Allproducts() {
     } )
 
     return (
-        <div className='allproducts'>
-        
-            {state.length>0 ? hold: <h1 className='loading'>Loading...</h1>}
-        
+        <div className='allproducts'>        
+            {state.length>0 ? hold: <h1 className='loading'>Loading...</h1>}        
         </div>
     )
 }
