@@ -20,7 +20,7 @@ function Allproducts() {
     }, [])
 
     const state= useSelector(state=>state.allproducts.products)
-    console.log(state)
+    //console.log(state)
     
     const handler = (e)=> {
         navigate(`/product/${e.target.id}`)
