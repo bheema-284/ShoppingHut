@@ -1,1 +1,1 @@
-# ShoppingHut
+# Shopping-Hut
